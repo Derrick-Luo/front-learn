@@ -1,0 +1,59 @@
+img {
+    width: 100%;
+    height: 320px;
+}
+ul {
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+    line-height:1px;
+    padding: 10px;
+    height:1px;
+    width: 100px;
+    margin: 0 10px;
+}
+.topfont{
+    font-family: "微软雅黑";
+    font-size: 17px;
+    color :    #708090;
+    text-decoration:none;
+}
+/* 主内容部分 */
+.content {
+    width:800px;
+    padding:10px;
+    border-bottom:1px dashed #000;
+    margin-left: 250px;
+}
+.title {
+    font-size: 30px;
+    color: #7b7b7b;
+}
+.summary {
+    font-size: 15px;
+}
+.info {
+    font-size: 12px;
+}
+/* 侧边栏部分 */
+.sidebar {
+    /* 这个abs能怎么改呢？ */
+    position: absolute;
+    right: 50px;
+    width: 300px;
+    padding: 10px;
+}
+.sidetitle {
+    font-family:STXingkai;
+    font-size: 30px;
+}
+.sideinner {
+    font-size: 15px;
+    color: black;
+}
